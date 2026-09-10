@@ -2,7 +2,12 @@
 	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
 		<div class="container">
 			<RouterLink class="navbar-brand fw-bold" to="/">
-			RECICLADORA EL CHELE
+            <img
+                src="../../assets/img/logo.jpg"
+                alt="Logo Recicladora El Chele"
+                class="logo"
+            >
+			<!-- RECICLADORA EL CHELE -->
 			</RouterLink>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"    aria-controls="navbarContent" aria-expanded="false" aria-label="Mostrar navegación" ><span    class="navbar-toggler-icon"></span>
 			</button>
@@ -39,4 +44,20 @@
 .nav-link.router-link-active {
 	color: #20A33E;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    object-fit: contain;
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+
+
+
+.navbar-brand {
+    color: #20A33E;
+}
+
 </style>
