@@ -38,6 +38,7 @@
                 <small>
                 © {{ new Date().getFullYear() }} Recicladora El Chele. Todos los derechos reservados.
                 </small>
+                <p>Sitio desarrollado por Alejandro Antonio Alvarado Echeverría.</p>
             </div>
         </div>
     </footer>
