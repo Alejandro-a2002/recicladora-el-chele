@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Inicio from '../views/Inicio.vue'
-import Acercade from '../views/Acerca_de.vue'
+import Nosotros from '../views/Nosotros.vue'
 import Materiales from '../views/Materiales.vue'
 import Contactos from '../views/Contactos.vue'
 
@@ -13,8 +13,8 @@ const routes = [
     },
     {
         path: '/nosotros',
-        name: 'acerca_de',
-        component: Acercade
+        name: 'nosotros',
+        component: Nosotros
     },
     {
         path: '/materiales',
@@ -22,7 +22,7 @@ const routes = [
         component: Materiales
     },
     {
-        path: '/contacto',
+        path: '/contactos',
         name: 'contactos',
         component: Contactos
     }

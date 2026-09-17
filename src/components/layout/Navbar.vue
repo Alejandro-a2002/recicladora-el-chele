@@ -23,7 +23,7 @@
 						<RouterLink class="nav-link" to="/materiales">Materiales</RouterLink>
 					</li>
 					<li class="nav-item">
-						<RouterLink class="nav-link" to="/contacto">Contacto</RouterLink>
+						<RouterLink class="nav-link" to="/contactos">Contacto</RouterLink>
 					</li>
 				</ul>
 			</div>
