@@ -42,7 +42,7 @@
                                 Horario
                             </h3>
 
-                            <p class="mb-0">Lunes a Domingo</p>
+                            <p class="mb-0">Lunes a Sabado</p>
                             <p>6:00 AM - 6:00 PM</p>
                         </div>
                     </div>
