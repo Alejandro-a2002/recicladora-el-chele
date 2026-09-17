@@ -1,0 +1,1596 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+public/
+  favicon.svg
+  icons.svg
+src/
+  assets/
+    css/
+      style.css
+    img/
+      carton_01.jpg
+      carton_02.jpg
+      carton_03.jpg
+      carton_04.jpg
+      carton_05.jpg
+      carton_06.jpg
+      hierro_01.jpg
+      hilo_01.jpg
+      logo.jpg
+      papel_01.jpg
+      plastico_01.jpg
+      tarimas_01.jpg
+      tela_01.jpg
+    hero.png
+    vite.svg
+    vue.svg
+  components/
+    layout/
+      Footer.vue
+      Navbar.vue
+    HelloWorld.vue
+  router/
+    index.js
+  views/
+    Contactos.vue
+    Inicio.vue
+    Materiales.vue
+    Nosotros.vue
+  App.vue
+  main.js
+  style.css
+.gitignore
+index.html
+package.json
+README.md
+vite.config.js
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="public/favicon.svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="46" fill="none" viewBox="0 0 48 46"><path fill="#863bff" d="M25.946 44.938c-.664.845-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.287c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.497 0-3.578-1.842-3.578H1.237c-.92 0-1.456-1.04-.92-1.788L10.013.474c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.579 1.842 3.579h11.377c.943 0 1.473 1.088.89 1.83L25.947 44.94z" style="fill:#863bff;fill:color(display-p3 .5252 .23 1);fill-opacity:1"/><mask id="a" width="48" height="46" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M25.842 44.938c-.664.844-2.021.375-2.021-.698V33.937a2.26 2.26 0 0 0-2.262-2.262H10.183c-.92 0-1.456-1.04-.92-1.788l7.48-10.471c1.07-1.498 0-3.579-1.842-3.579H1.133c-.92 0-1.456-1.04-.92-1.787L9.91.473c.214-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.471c-1.07 1.498 0 3.578 1.842 3.578h11.377c.943 0 1.473 1.088.89 1.832L25.843 44.94z" style="fill:#000;fill-opacity:1"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#ede6ff" rx="5.508" ry="14.704" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -4.47 31.516)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#ede6ff" rx="10.399" ry="29.851" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -39.328 7.883)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#7e14ff" rx="5.508" ry="30.487" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -25.913 -14.639)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.814 -32.644 -3.334)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#7e14ff" rx="5.508" ry="30.599" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="matrix(.00324 1 1 -.00324 -34.34 30.47)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#ede6ff" rx="14.072" ry="22.078" style="fill:#ede6ff;fill:color(display-p3 .9275 .9033 1);fill-opacity:1" transform="rotate(93.35 24.506 48.493)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#7e14ff" rx="3.47" ry="21.501" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(89.009 28.708 47.59)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx=".387" cy="8.972" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(39.51 .387 8.972)"/></g><g filter="url(#k)"><ellipse cx="47.523" cy="-6.092" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 47.523 -6.092)"/></g><g filter="url(#l)"><ellipse cx="41.412" cy="6.333" fill="#47bfff" rx="5.971" ry="9.665" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 41.412 6.333)"/></g><g filter="url(#m)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#n)"><ellipse cx="-1.879" cy="38.332" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 -1.88 38.332)"/></g><g filter="url(#o)"><ellipse cx="35.651" cy="29.907" fill="#7e14ff" rx="4.407" ry="29.108" style="fill:#7e14ff;fill:color(display-p3 .4922 .0767 1);fill-opacity:1" transform="rotate(37.892 35.651 29.907)"/></g><g filter="url(#p)"><ellipse cx="38.418" cy="32.4" fill="#47bfff" rx="5.971" ry="15.297" style="fill:#47bfff;fill:color(display-p3 .2799 .748 1);fill-opacity:1" transform="rotate(37.892 38.418 32.4)"/></g></g><defs><filter id="b" width="60.045" height="41.654" x="-19.77" y="16.149" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-54.613" y="-7.533" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-49.64" y="2.03" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-45.045" y="20.029" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-43.513" y="21.178" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="15.756" y="-17.901" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="23.548" y="2.284" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-27.636" y="-22.853" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="20.116" y="-38.415" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="24.641" y="-11.323" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-29.286" y="6.009" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="8.244" y="-2.416" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="18.713" y="10.588" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17158" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="public/icons.svg">
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="bluesky-icon" viewBox="0 0 16 17">
+    <g clip-path="url(#bluesky-clip)"><path fill="#08060d" d="M7.75 7.735c-.693-1.348-2.58-3.86-4.334-5.097-1.68-1.187-2.32-.981-2.74-.79C.188 2.065.1 2.812.1 3.251s.241 3.602.398 4.13c.52 1.744 2.367 2.333 4.07 2.145-2.495.37-4.71 1.278-1.805 4.512 3.196 3.309 4.38-.71 4.987-2.746.608 2.036 1.307 5.91 4.93 2.746 2.72-2.746.747-4.143-1.747-4.512 1.702.189 3.55-.4 4.07-2.145.156-.528.397-3.691.397-4.13s-.088-1.186-.575-1.406c-.42-.19-1.06-.395-2.741.79-1.755 1.24-3.64 3.752-4.334 5.099"/></g>
+    <defs><clipPath id="bluesky-clip"><path fill="#fff" d="M.1.85h15.3v15.3H.1z"/></clipPath></defs>
+  </symbol>
+  <symbol id="discord-icon" viewBox="0 0 20 19">
+    <path fill="#08060d" d="M16.224 3.768a14.5 14.5 0 0 0-3.67-1.153c-.158.286-.343.67-.47.976a13.5 13.5 0 0 0-4.067 0c-.128-.306-.317-.69-.476-.976A14.4 14.4 0 0 0 3.868 3.77C1.546 7.28.916 10.703 1.231 14.077a14.7 14.7 0 0 0 4.5 2.306q.545-.748.965-1.587a9.5 9.5 0 0 1-1.518-.74q.191-.14.372-.293c2.927 1.369 6.107 1.369 8.999 0q.183.152.372.294-.723.437-1.52.74.418.838.963 1.588a14.6 14.6 0 0 0 4.504-2.308c.37-3.911-.63-7.302-2.644-10.309m-9.13 8.234c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.894 0 1.614.82 1.599 1.82.001 1-.705 1.82-1.6 1.82m5.91 0c-.878 0-1.599-.82-1.599-1.82 0-.998.705-1.82 1.6-1.82.893 0 1.614.82 1.599 1.82 0 1-.706 1.82-1.6 1.82"/>
+  </symbol>
+  <symbol id="documentation-icon" viewBox="0 0 21 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m15.5 13.333 1.533 1.322c.645.555.967.833.967 1.178s-.322.623-.967 1.179L15.5 18.333m-3.333-5-1.534 1.322c-.644.555-.966.833-.966 1.178s.322.623.966 1.179l1.534 1.321"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M17.167 10.836v-4.32c0-1.41 0-2.117-.224-2.68-.359-.906-1.118-1.621-2.08-1.96-.599-.21-1.349-.21-2.848-.21-2.623 0-3.935 0-4.983.369-1.684.591-3.013 1.842-3.641 3.428C3 6.449 3 7.684 3 10.154v2.122c0 2.558 0 3.838.706 4.726q.306.383.713.671c.76.536 1.79.64 3.581.66"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3 10a2.78 2.78 0 0 1 2.778-2.778c.555 0 1.209.097 1.748-.047.48-.129.854-.503.982-.982.145-.54.048-1.194.048-1.749a2.78 2.78 0 0 1 2.777-2.777"/>
+  </symbol>
+  <symbol id="github-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M9.356 1.85C5.05 1.85 1.57 5.356 1.57 9.694a7.84 7.84 0 0 0 5.324 7.44c.387.079.528-.168.528-.376 0-.182-.013-.805-.013-1.454-2.165.467-2.616-.935-2.616-.935-.349-.91-.864-1.143-.864-1.143-.71-.48.051-.48.051-.48.787.051 1.2.805 1.2.805.695 1.194 1.817.857 2.268.649.064-.507.27-.857.49-1.052-1.728-.182-3.545-.857-3.545-3.87 0-.857.31-1.558.8-2.104-.078-.195-.349-1 .077-2.078 0 0 .657-.208 2.14.805a7.5 7.5 0 0 1 1.946-.26c.657 0 1.328.092 1.946.26 1.483-1.013 2.14-.805 2.14-.805.426 1.078.155 1.883.078 2.078.502.546.799 1.247.799 2.104 0 3.013-1.818 3.675-3.558 3.87.284.247.528.714.528 1.454 0 1.052-.012 1.896-.012 2.156 0 .208.142.455.528.377a7.84 7.84 0 0 0 5.324-7.441c.013-4.338-3.48-7.844-7.773-7.844" clip-rule="evenodd"/>
+  </symbol>
+  <symbol id="social-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M12.5 6.667a4.167 4.167 0 1 0-8.334 0 4.167 4.167 0 0 0 8.334 0"/>
+    <path fill="none" stroke="#aa3bff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2.5 16.667a5.833 5.833 0 0 1 8.75-5.053m3.837.474.513 1.035c.07.144.257.282.414.309l.93.155c.596.1.736.536.307.965l-.723.73a.64.64 0 0 0-.152.531l.207.903c.164.715-.213.991-.84.618l-.872-.52a.63.63 0 0 0-.577 0l-.872.52c-.624.373-1.003.094-.84-.618l.207-.903a.64.64 0 0 0-.152-.532l-.723-.729c-.426-.43-.289-.864.306-.964l.93-.156a.64.64 0 0 0 .412-.31l.513-1.034c.28-.562.735-.562 1.012 0"/>
+  </symbol>
+  <symbol id="x-icon" viewBox="0 0 19 19">
+    <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
+  </symbol>
+</svg>
+</file>
+
+<file path="src/assets/css/style.css">
+/* =========================
+   ESTILOS GENERALES
+   ========================= */
+
+:root {
+    --color-principal: #20A33E;
+}
+
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+.navbar-brand {
+    color: var(--color-principal);
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover,
+.nav-link.router-link-active {
+    color: var(--color-principal);
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    object-fit: contain;
+    margin-right: 10px;
+    background-color: aliceblue;
+}
+
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+    background-color: var(--color-principal);
+}
+
+.hero .btn {
+    color: var(--color-principal);
+}
+
+.hero-materiales,
+.hero-about {
+    background: var(--color-principal);
+    padding: 100px 0;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h1 {
+    color: white;
+}
+
+h2,
+h3,
+h4 {
+    color: var(--color-principal);
+}
+
+
+
+.contact-header {
+    background-color: var(--color-principal);
+}
+
+.contact-header h1 {
+    color: white;
+}
+
+.contact-header p {
+    color: white;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   CARDS
+   ========================= */
+
+.card {
+    border: 1px solid #dee2e6;
+    border-top: 4px solid var(--color-principal);
+    border-radius: 8px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.material-card,
+.info-card,
+.value-card {
+    border-top: 4px solid var(--color-principal);
+    transition: transform 0.3s ease;
+}
+
+.material-card:hover,
+.info-card:hover,
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   CARRUSEL
+   ========================= */
+
+.carousel-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.collage-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* =========================
+   CONTACTO
+   ========================= */
+
+iframe {
+    border-radius: 8px;
+}
+
+
+/* =========================
+   NOSOTROS
+   ========================= */
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer {
+    background-color: var(--color-principal);
+}
+
+.footer a {
+    color: white;
+}
+</file>
+
+<file path="src/assets/vite.svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="77" height="47" fill="none" aria-labelledby="vite-logo-title" viewBox="0 0 77 47"><title id="vite-logo-title">Vite</title><style>.parenthesis{fill:#000}@media (prefers-color-scheme:dark){.parenthesis{fill:#fff}}</style><path fill="#9135ff" d="M40.151 45.71c-.663.844-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.493c-.92 0-1.457-1.04-.92-1.788l7.479-10.471c1.07-1.498 0-3.578-1.842-3.578H15.443c-.92 0-1.456-1.04-.92-1.788l9.696-13.576c.213-.297.556-.474.92-.474h28.894c.92 0 1.456 1.04.92 1.788l-7.48 10.472c-1.07 1.497 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.087.89 1.83L40.153 45.712z"/><mask id="a" width="48" height="47" x="14" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><path fill="#000" d="M40.047 45.71c-.663.843-2.02.374-2.02-.699V34.708a2.26 2.26 0 0 0-2.262-2.262H24.389c-.92 0-1.457-1.04-.92-1.788l7.479-10.472c1.07-1.497 0-3.578-1.842-3.578H15.34c-.92 0-1.456-1.04-.92-1.788l9.696-13.575c.213-.297.556-.474.92-.474H53.93c.92 0 1.456 1.04.92 1.788L47.37 13.03c-1.07 1.498 0 3.578 1.842 3.578h11.376c.944 0 1.474 1.088.89 1.831L40.049 45.712z"/></mask><g mask="url(#a)"><g filter="url(#b)"><ellipse cx="5.508" cy="14.704" fill="#eee6ff" rx="5.508" ry="14.704" transform="rotate(269.814 20.96 11.29)scale(-1 1)"/></g><g filter="url(#c)"><ellipse cx="10.399" cy="29.851" fill="#eee6ff" rx="10.399" ry="29.851" transform="rotate(89.814 -16.902 -8.275)scale(1 -1)"/></g><g filter="url(#d)"><ellipse cx="5.508" cy="30.487" fill="#8900ff" rx="5.508" ry="30.487" transform="rotate(89.814 -19.197 -7.127)scale(1 -1)"/></g><g filter="url(#e)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.928 4.177)scale(1 -1)"/></g><g filter="url(#f)"><ellipse cx="5.508" cy="30.599" fill="#8900ff" rx="5.508" ry="30.599" transform="rotate(89.814 -25.738 5.52)scale(1 -1)"/></g><g filter="url(#g)"><ellipse cx="14.072" cy="22.078" fill="#eee6ff" rx="14.072" ry="22.078" transform="rotate(93.35 31.245 55.578)scale(-1 1)"/></g><g filter="url(#h)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#i)"><ellipse cx="3.47" cy="21.501" fill="#8900ff" rx="3.47" ry="21.501" transform="rotate(89.009 35.419 55.202)scale(-1 1)"/></g><g filter="url(#j)"><ellipse cx="14.592" cy="9.743" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(39.51 14.592 9.743)"/></g><g filter="url(#k)"><ellipse cx="61.728" cy="-5.321" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 61.728 -5.32)"/></g><g filter="url(#l)"><ellipse cx="55.618" cy="7.104" fill="#00c2ff" rx="5.971" ry="9.665" transform="rotate(37.892 55.618 7.104)"/></g><g filter="url(#m)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#n)"><ellipse cx="12.326" cy="39.103" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 12.326 39.103)"/></g><g filter="url(#o)"><ellipse cx="49.857" cy="30.678" fill="#8900ff" rx="4.407" ry="29.108" transform="rotate(37.892 49.857 30.678)"/></g><g filter="url(#p)"><ellipse cx="52.623" cy="33.171" fill="#00c2ff" rx="5.971" ry="15.297" transform="rotate(37.892 52.623 33.17)"/></g></g><path d="M6.919 0c-9.198 13.166-9.252 33.575 0 46.789h6.215c-9.25-13.214-9.196-33.623 0-46.789zm62.424 0h-6.215c9.198 13.166 9.252 33.575 0 46.789h6.215c9.25-13.214 9.196-33.623 0-46.789" class="parenthesis"/><defs><filter id="b" width="60.045" height="41.654" x="-5.564" y="16.92" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="c" width="90.34" height="51.437" x="-40.407" y="-6.762" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="d" width="79.355" height="29.4" x="-35.435" y="2.801" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="e" width="79.579" height="29.4" x="-30.84" y="20.8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="f" width="79.579" height="29.4" x="-29.307" y="21.949" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="g" width="74.749" height="58.852" x="29.961" y="-17.13" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="7.659"/></filter><filter id="h" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="i" width="61.377" height="25.362" x="37.754" y="3.055" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="j" width="56.045" height="63.649" x="-13.43" y="-22.082" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="k" width="54.814" height="64.646" x="34.321" y="-37.644" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="l" width="33.541" height="35.313" x="38.847" y="-10.552" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="m" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="n" width="54.814" height="64.646" x="-15.081" y="6.78" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="o" width="54.814" height="64.646" x="22.45" y="-1.645" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter><filter id="p" width="39.409" height="43.623" x="32.919" y="11.36" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_2002_17286" stdDeviation="4.596"/></filter></defs></svg>
+</file>
+
+<file path="src/assets/vue.svg">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="37.07" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 198"><path fill="#41B883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0h47.36Z"></path><path fill="#41B883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0H0Z"></path><path fill="#35495E" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0H50.56Z"></path></svg>
+</file>
+
+<file path="src/components/HelloWorld.vue">
+<script setup>
+import { ref } from 'vue'
+import heroImg from '../assets/hero.png'
+import viteLogo from '../assets/vite.svg'
+import vueLogo from '../assets/vue.svg'
+
+const count = ref(0)
+</script>
+
+<template>
+  <section id="center">
+    <div class="hero">
+      <img :src="heroImg" class="base" width="170" height="179" alt="" />
+      <img :src="vueLogo" class="framework" alt="Vue logo" />
+      <img :src="viteLogo" class="vite" alt="Vite logo" />
+    </div>
+    <div>
+      <h1>Get started</h1>
+      <p>Edit <code>src/App.vue</code> and save to test <code>HMR</code></p>
+    </div>
+    <button type="button" class="counter" @click="count++">
+      Count is {{ count }}
+    </button>
+  </section>
+
+  <div class="ticks"></div>
+
+  <section id="next-steps">
+    <div id="docs">
+      <svg class="icon" role="presentation" aria-hidden="true">
+        <use href="/icons.svg#documentation-icon"></use>
+      </svg>
+      <h2>Documentation</h2>
+      <p>Your questions, answered</p>
+      <ul>
+        <li>
+          <a href="https://vite.dev/" target="_blank">
+            <img class="logo" :src="viteLogo" alt="" />
+            Explore Vite
+          </a>
+        </li>
+        <li>
+          <a href="https://vuejs.org/" target="_blank">
+            <img class="button-icon" :src="vueLogo" alt="" />
+            Learn more
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="social">
+      <svg class="icon" role="presentation" aria-hidden="true">
+        <use href="/icons.svg#social-icon"></use>
+      </svg>
+      <h2>Connect with us</h2>
+      <p>Join the Vite community</p>
+      <ul>
+        <li>
+          <a href="https://github.com/vitejs/vite" target="_blank">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/icons.svg#github-icon"></use>
+            </svg>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://chat.vite.dev/" target="_blank">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/icons.svg#discord-icon"></use>
+            </svg>
+            Discord
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/vite_js" target="_blank">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/icons.svg#x-icon"></use>
+            </svg>
+            X.com
+          </a>
+        </li>
+        <li>
+          <a href="https://bsky.app/profile/vite.dev" target="_blank">
+            <svg class="button-icon" role="presentation" aria-hidden="true">
+              <use href="/icons.svg#bluesky-icon"></use>
+            </svg>
+            Bluesky
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="ticks"></div>
+  <section id="spacer"></section>
+</template>
+</file>
+
+<file path="src/style.css">
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+    --code-bg: #1f2028;
+    --accent: #c084fc;
+    --accent-bg: rgba(192, 132, 252, 0.15);
+    --accent-border: rgba(192, 132, 252, 0.5);
+    --social-bg: rgba(47, 48, 58, 0.5);
+    --shadow:
+      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
+  }
+
+  #social .button-icon {
+    filter: invert(1) brightness(2);
+  }
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: -1.68px;
+  margin: 32px 0;
+  @media (max-width: 1024px) {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+h2 {
+  font-size: 24px;
+  line-height: 118%;
+  letter-spacing: -0.24px;
+  margin: 0 0 8px;
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+.counter {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+  margin-bottom: 24px;
+
+  &:hover {
+    border-color: var(--accent-border);
+  }
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+.hero {
+  position: relative;
+
+  .base,
+  .framework,
+  .vite {
+    inset-inline: 0;
+    margin: 0 auto;
+  }
+
+  .base {
+    width: 170px;
+    position: relative;
+    z-index: 0;
+  }
+
+  .framework,
+  .vite {
+    position: absolute;
+  }
+
+  .framework {
+    z-index: 1;
+    top: 34px;
+    height: 28px;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
+      scale(1.4);
+  }
+
+  .vite {
+    z-index: 0;
+    top: 107px;
+    height: 26px;
+    width: auto;
+    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
+      scale(0.8);
+  }
+}
+
+#app {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-inline: 1px solid var(--border);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  flex-grow: 1;
+
+  @media (max-width: 1024px) {
+    padding: 32px 20px 24px;
+    gap: 18px;
+  }
+}
+
+#next-steps {
+  display: flex;
+  border-top: 1px solid var(--border);
+  text-align: left;
+
+  & > div {
+    flex: 1 1 0;
+    padding: 32px;
+    @media (max-width: 1024px) {
+      padding: 24px 20px;
+    }
+  }
+
+  .icon {
+    margin-bottom: 16px;
+    width: 22px;
+    height: 22px;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#docs {
+  border-right: 1px solid var(--border);
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+}
+
+#next-steps ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  margin: 32px 0 0;
+
+  .logo {
+    height: 18px;
+  }
+
+  a {
+    color: var(--text-h);
+    font-size: 16px;
+    border-radius: 6px;
+    background: var(--social-bg);
+    display: flex;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+
+    &:hover {
+      box-shadow: var(--shadow);
+    }
+    .button-icon {
+      height: 18px;
+      width: 18px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      flex: 1 1 calc(50% - 8px);
+    }
+
+    a {
+      width: 100%;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+}
+
+#spacer {
+  height: 88px;
+  border-top: 1px solid var(--border);
+  @media (max-width: 1024px) {
+    height: 48px;
+  }
+}
+
+.ticks {
+  position: relative;
+  width: 100%;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: -4.5px;
+    border: 5px solid transparent;
+  }
+
+  &::before {
+    left: 0;
+    border-left-color: var(--border);
+  }
+  &::after {
+    right: 0;
+    border-right-color: var(--border);
+  }
+}
+</file>
+
+<file path="src/router/index.js">
+import { createRouter, createWebHistory } from 'vue-router'
+
+import Inicio from '../views/Inicio.vue'
+import Nosotros from '../views/Nosotros.vue'
+import Materiales from '../views/Materiales.vue'
+import Contactos from '../views/Contactos.vue'
+
+const routes = [
+    {
+        path: '/',
+        name: 'inicio',
+        component: Inicio
+    },
+    {
+        path: '/nosotros',
+        name: 'nosotros',
+        component: Nosotros
+    },
+    {
+        path: '/materiales',
+        name: 'materiales',
+        component: Materiales
+    },
+    {
+        path: '/contactos',
+        name: 'contactos',
+        component: Contactos
+    }
+]
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes
+})
+
+export default router
+</file>
+
+<file path="src/views/Materiales.vue">
+<template>
+  <main>
+    <!-- Banner -->
+    <section class="hero-materiales text-white">
+      <div class="container text-center">
+        <h1 class="display-4 fw-bold">MATERIALES RECICLABLES</h1>
+        <p class="lead">
+          Conoce los materiales que recibimos en Recicladora El Chele.
+        </p>
+      </div>
+    </section>
+
+    <!-- Materiales -->
+    <section class="py-5">
+      <div class="container">
+		  <div class="row g-4">
+			<!-- Carrusel -->
+          <div class="row">
+            <div class="col-12">
+              <div
+                id="carouselCarton"
+                class="carousel slide"
+                data-bs-ride="carousel"
+                data-bs-interval="3000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row g-3">
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_01.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_02.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_03.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="row g-3">
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_04.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_05.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+
+                      <div class="col-md-4">
+                        <img
+                          src="../assets/img/carton_06.jpg"
+                          class="collage-img"
+                          alt="Cartón"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselCarton"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselCarton"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+
+              <!-- Texto debajo del carrusel -->
+              <div class="card shadow-sm mt-3">
+                <div class="card-body text-center">
+                  <h4 class="card-title">Cartón</h4>
+                  <p class="card-text">
+                    Cajas, empaques y materiales derivados del cartón.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/plastico_01.jpg"
+                class="card-img-top"
+                alt="plastico"
+              />
+              <div class="card-body text-center">
+                <h4>Plástico</h4>
+                <p>
+                  Botellas, envases y otros productos plásticos reciclables.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/papel_01.jpg"
+                class="card-img-top"
+                alt="papel"
+              />
+              <div class="card-body text-center">
+                <h4>Papel</h4>
+                <p>Periódicos, revistas, hojas y papel reciclable.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/hierro_01.jpg"
+                class="card-img-top"
+                alt="hierro"
+              />
+              <div class="card-body text-center">
+                <h4>Hierro</h4>
+                <p>Piezas, estructuras y otros materiales de hierro que pueden ser recuperados y reutilizados.</p>
+              </div>
+            </div>
+          </div>
+
+		  
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/tela_01.jpg"
+                class="card-img-top"
+                alt="tela"
+              />
+              <div class="card-body text-center">
+                <h4>Tela</h4>
+                <p>Retazos, prendas y diferentes tipos de tela que pueden ser reutilizados o reciclados.</p>
+              </div>
+            </div>
+          </div>
+
+		  
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/hilo_01.jpg"
+                class="card-img-top"
+                alt="hilo"
+              />
+              <div class="card-body text-center">
+                <h4>Hilo</h4>
+                <p>Hilos y sobrantes textiles provenientes de diferentes tipos de trabajos y materiales.</p>
+              </div>
+            </div>
+          </div>
+
+		  
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm material-card">
+              <img
+                src="../assets/img/tarimas_01.jpg"
+                class="card-img-top"
+                alt="tarimas"
+              />
+              <div class="card-body text-center">
+                <h4>Tarimas de madera</h4>
+                <p>Tarimas y pallets de madera que pueden ser reutilizados o aprovechados para nuevos proyectos.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <hr />
+
+        <!-- Información adicional -->
+        <div class="card shadow-sm mt-5 info-card">
+          <div class="card-body text-center">
+            <h2>Importancia del reciclaje</h2>
+            <p class="mb-0">
+              El reciclaje contribuye a reducir la contaminación, disminuir el
+              desperdicio de recursos naturales y fomentar una cultura de
+              sostenibilidad para las futuras generaciones.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>
+</file>
+
+<file path="src/views/Nosotros.vue">
+<template>
+    <main>
+    <!-- Banner -->
+        <section class="hero-about text-white">
+            <div class="container text-center">
+                <h1 class="display-4 fw-bold">NOSOTROS</h1>
+                <p class="lead">
+                Trabajamos por un futuro más limpio mediante el reciclaje y el
+                aprovechamiento responsable de los recursos.
+                </p>
+            </div>
+        </section>
+        <section class="py-5">
+            <div class="container">
+                <!-- Quiénes somos -->
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6">
+                        <img
+                        src="/src/assets/img/logo.jpg"
+                        class="img-fluid rounded shadow"
+                        alt="Reciclaje"
+                        >
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>¿Quiénes somos?</h2>
+                        <p>
+                        Recicladora El Chele es una empresa comprometida con la recepción,
+                        clasificación y comercialización de materiales reciclables,
+                        promoviendo el cuidado del medio ambiente y contribuyendo al
+                        desarrollo sostenible de nuestra comunidad.
+                        </p>
+                        <p>
+                        Nuestro trabajo busca reducir el impacto ambiental mediante la
+                        recuperación y reutilización de materiales que pueden volver a ser
+                        aprovechados.
+                        </p>
+                    </div>
+                </div>
+                <!-- Misión y Visión -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm info-card">
+                        <div class="card-body text-center">
+                        <div class="icon-circle mb-3">🌱</div>
+                        <h3>Misión</h3>
+                        <p>
+                        Brindar servicios de reciclaje responsables, fomentando la
+                        correcta gestión de materiales y contribuyendo al cuidado del
+                        medio ambiente.
+                        </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 shadow-sm info-card">
+                            <div class="card-body text-center">
+                                <div class="icon-circle mb-3">♻️</div>
+                                <h3>Visión</h3>
+                                <p>Ser una empresa líder en reciclaje reconocida por su
+                                compromiso ambiental, innovación y servicio a la comunidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Valores -->
+                <div class="text-center mb-4">
+                    <h2>Nuestros valores</h2>
+                    <p class="text-muted">
+                    Principios que guían nuestro trabajo diario.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm value-card">
+                            <div class="card-body text-center">
+                                <h4>Responsabilidad</h4>
+                                <p>Cumplimos nuestros compromisos con clientes y comunidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm value-card">
+                            <div class="card-body text-center">
+                            <h4>Honestidad</h4>
+                                <p>Actuamos con transparencia en cada proceso.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm value-card">
+                        <div class="card-body text-center">
+                            <h4>Compromiso</h4>
+                            <p>Trabajamos para generar un impacto positivo en el entorno.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card h-100 shadow-sm value-card">
+                            <div class="card-body text-center">
+                                <h4>Servicio</h4>
+                                <p>Ofrecemos atención cercana y de calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</template>
+</file>
+
+<file path=".gitignore">
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+</file>
+
+<file path="index.html">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/img/logo.jpg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>recicladora-el-chele</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+</file>
+
+<file path="vite.config.js">
+//import vue from '@vitejs/plugin-vue'
+//import { defineConfig } from 'vite'
+//
+//// https://vite.dev/config/
+//export default defineConfig({
+//  plugins: [vue()],
+//})
+
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+    plugins: [vue()],
+    base: '/recicladora-el-chele/'
+})
+</file>
+
+<file path="src/App.vue">
+<!-- <script setup> 
+  import HelloWorld from './components/HelloWorld.vue'
+  </script> -->
+
+<template>
+  <Navbar/>
+  <router-view/>
+  <Footer/>
+</template>
+
+<script setup>
+import Navbar from './components/layout/Navbar.vue'
+import Footer from './components/layout/Footer.vue'
+</script>
+</file>
+
+<file path="src/components/layout/Footer.vue">
+<template>
+    <footer class="footer text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                <h5>RECICLADORA EL CHELE</h5>
+                    <p class="mb-0">
+                    Comprometidos con el reciclaje y el cuidado del medio ambiente.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Información de contacto</h5>
+                    <p class="mb-1">
+                        <a
+                        href="https://maps.app.goo.gl/8xBmPPVHMzfXTt3DA"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        Ver ubicación en Google Maps
+                        </a>
+                    </p>
+                    <p class="mb-1">
+                        <i class="bi bi-clock-fill me-2"></i>6:00 AM - 6:00 PM
+                    </p>
+                    <p class="mb-0">
+                    <i class="bi bi-whatsapp me-2"></i>
+                    <a href="tel:74851594"> +503 7485-1594</a>
+                    </p>
+                    <p class="mb-0">
+                    <i class="bi bi-envelope me-2"></i>
+                    <a href="mailto:contacto@recicladoraelchele.com"> Anamargaritamoreno8@gmail.com </a>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <small>
+                © {{ new Date().getFullYear() }} Recicladora El Chele. Todos los derechos reservados.
+                </small>
+                <p>Sitio desarrollado por Alejandro Antonio Alvarado Echeverría.</p>
+            </div>
+        </div>
+    </footer>
+</template>
+</file>
+
+<file path="src/components/layout/Navbar.vue">
+<template>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+		<div class="container">
+			<RouterLink class="navbar-brand fw-bold" to="/">
+            <img
+                src="../../assets/img/logo.jpg"
+                alt="Logo Recicladora El Chele"
+                class="logo"
+            >
+			<!-- RECICLADORA EL CHELE -->
+			</RouterLink>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"    aria-controls="navbarContent" aria-expanded="false" aria-label="Mostrar navegación" ><span    class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<RouterLink class="nav-link" to="/">Inicio</RouterLink>
+					</li>
+					<li class="nav-item">
+						<RouterLink class="nav-link" to="/nosotros">Nosotros</RouterLink>
+					</li>
+					<li class="nav-item">
+						<RouterLink class="nav-link" to="/materiales">Materiales</RouterLink>
+					</li>
+					<li class="nav-item">
+						<RouterLink class="nav-link" to="/contactos">Contacto</RouterLink>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</template>
+</file>
+
+<file path="src/views/Contactos.vue">
+<template>
+    <section class="contact-section">
+
+        <div class="contact-header py-5">
+            <div class="container text-center">
+                <h1>CONTÁCTANOS</h1>
+                <p>
+                    Estamos listos para atenderte y resolver tus consultas.
+                </p>
+            </div>
+        </div>
+
+        <div class="container py-5">
+
+            <div class="row g-4">
+
+                <!-- Teléfono -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3>
+                                <i class="bi bi-telephone-fill me-2"></i>
+                                Teléfono
+                            </h3>
+
+                            <h3>
+                                <i class="bi bi-whatsapp me-2"></i>
+                                WhatsApp
+                            </h3>
+
+                            <p class="mb-0">+503 7485-1594</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Horario -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3>
+                                <i class="bi bi-clock-fill me-2"></i>
+                                Horario
+                            </h3>
+
+                            <p class="mb-0">Lunes a Domingo</p>
+                            <p>6:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Correo -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <h3>
+                                <i class="bi bi-envelope me-2"></i>
+                                Correo Electrónico
+                            </h3>
+
+                            <p class="mb-0">
+                                Anamargaritamoreno8@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Mapa -->
+            <div class="card shadow-sm mt-5">
+                <div class="card-body">
+
+                    <h3 class="text-center mb-4">
+                        <i class="bi bi-geo-alt-fill me-2"></i>
+                        Nuestra Ubicación
+                    </h3>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.057353709087!2d-89.4846748!3d13.861013100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62dd8b80b97729%3A0xdd040976a817691c!2sReciclajes%20El%20Chele!5e1!3m2!1ses-419!2ssv!4v1788987580908!5m2!1ses-419!2ssv"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        loading="lazy">
+                    </iframe>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</template>
+</file>
+
+<file path="src/views/Inicio.vue">
+<template>
+  <main>
+    <!-- Inicio -->
+    <section class="hero text-white py-5" id="inicio">
+      <div class="container text-center py-5">
+        <h1 class="display-4 fw-bold">RECICLADORA EL CHELE</h1>
+        <p class="lead mt-3">
+          Comprometidos con el reciclaje y el cuidado del medio ambiente.
+        </p>
+        <a href="#catalogo" class="btn btn-light btn-lg mt-3"> Ver más </a>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Materiales que reciclamos</h2>
+          <p class="text-muted">
+            Conoce los materiales que recibimos en Recicladora El Chele.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="../assets/img/carton_01.jpg"
+                class="card-img-top"
+                alt="carton"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Cartón</h4>
+                <p class="card-text">
+                  Cajas, empaques y materiales derivados del cartón.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="../assets/img/plastico_01.jpg"
+                class="card-img-top"
+                alt="plastico"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Plástico</h4>
+                <p class="card-text">
+                  Botellas, envases y otros materiales plásticos reciclables.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="../assets/img/hierro_01.jpg"
+                class="card-img-top"
+                alt="hierro"
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Metales</h4>
+                <p class="card-text">
+                  Aluminio, hierro y otros materiales metálicos reciclables.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <RouterLink to="/materiales" class="btn btn-success btn-lg">
+            Ver todos los materiales
+          </RouterLink>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>Nuestros servicios</h2>
+          <p class="text-muted">Conoce los servicios que ofrecemos.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h3 class="card-title">Reciclaje</h3>
+                <p class="card-text">
+                  Recepción y clasificación de materiales reciclables.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h3 class="card-title">Compra de materiales</h3>
+                <p class="card-text">
+                  Compra de diferentes materiales reciclables.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body text-center">
+                <h3 class="card-title">Atención personalizada</h3>
+                <p class="card-text">Atención para clientes y proveedores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</template>
+
+<script setup>
+import { RouterLink } from "vue-router";
+</script>
+</file>
+
+<file path="README.md">
+# RECICLADORA EL CHELE
+
+Sitio web informativo desarrollado para **Recicladora El Chele**, con el objetivo de brindar información sobre la empresa, los materiales reciclables que recibe, sus servicios, ubicación y medios de contacto. Además, el sitio incorpora un catálogo digital que facilita a los clientes conocer los materiales aceptados y los servicios ofrecidos.
+
+## Descripción del Proyecto
+
+Este proyecto consiste en el desarrollo de una plataforma web moderna y responsiva que permite presentar de manera clara y organizada la información de la empresa. El sitio está orientado a mejorar la presencia digital de Recicladora El Chele y facilitar la comunicación con clientes potenciales.
+
+## Objetivos
+
+- Presentar información general de la empresa.
+- Mostrar los materiales reciclables aceptados.
+- Publicar los servicios ofrecidos por la recicladora.
+- Facilitar el contacto con clientes y proveedores.
+- Proporcionar una experiencia de navegación amigable en dispositivos móviles y de escritorio.
+
+## Tecnologías Utilizadas
+
+- Vue.js 3
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+- Git y GitHub
+
+## Funcionalidades
+
+- Página de inicio con información destacada.
+- Sección "Nosotros" con la historia y misión de la empresa.
+- Catálogo digital de materiales reciclables.
+- Información sobre servicios ofrecidos.
+- Datos de contacto y ubicación.
+- Diseño adaptable para dispositivos móviles y computadoras.
+- Navegación intuitiva mediante menú principal.
+
+## Estructura General del Sitio
+
+- Inicio
+- Nosotros
+- Servicios
+- Materiales Reciclables
+- Contacto
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone <url-del-repositorio>
+```
+
+Ingresar al proyecto:
+
+```bash
+cd recicladora-el-chele
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+## Estado del Proyecto
+
+Proyecto en desarrollo como parte de las actividades de prácticas profesionales y fortalecimiento de la presencia digital de la empresa.
+
+## Autor
+
+**Alejandro Alvarado**  
+Técnico en Ingeniería en Computación  
+Universidad Don Bosco
+</file>
+
+<file path="src/main.js">
+// import { createApp } from 'vue'
+// import './style.css'
+// import App from './App.vue'
+// 
+// createApp(App).mount('#app')
+
+import { createApp } from 'vue'
+import App from './App.vue'
+import router from './router'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+import 'bootstrap-icons/font/bootstrap-icons.css'
+import '../src/assets/css/style.css'
+
+createApp(App)
+    .use(router)
+    .mount('#app')
+</file>
+
+<file path="package.json">
+{
+  "name": "recicladora-el-chele",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "vue": "^3.5.41",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "gh-pages": "^6.3.0",
+    "vite": "^8.2.2"
+  }
+}
+</file>
+
+</files>
