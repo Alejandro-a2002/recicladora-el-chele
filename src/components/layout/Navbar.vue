@@ -30,34 +30,3 @@
 		</div>
 	</nav>
 </template>
-
-<style scoped>
-.navbar-brand {
-	color: #20A33E;
-}
-
-.nav-link {
-	color: #333;
-}
-
-.nav-link:hover,
-.nav-link.router-link-active {
-	color: #20A33E;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    object-fit: contain;
-    margin-right: 10px;
-    background-color: aliceblue;
-}
-
-
-
-.navbar-brand {
-    color: #20A33E;
-}
-
-</style>

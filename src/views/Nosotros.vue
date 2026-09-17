@@ -3,14 +3,11 @@
     <!-- Banner -->
         <section class="hero-about text-white">
             <div class="container text-center">
-                <h1 class="display-4 fw-bold">Nosotros</h1>
+                <h1 class="display-4 fw-bold">NOSOTROS</h1>
                 <p class="lead">
                 Trabajamos por un futuro más limpio mediante el reciclaje y el
                 aprovechamiento responsable de los recursos.
                 </p>
-            </div>
-            <div class="icon-circle mb-3">
-                <i class="bi bi-recycle"></i>
             </div>
         </section>
         <section class="py-5">
@@ -110,40 +107,3 @@
         </section>
     </main>
 </template>
-
-<style scoped>
-.hero-about {
-    background: #20a33e;
-    padding: 100px 0;
-}
-
-h2,
-h3,
-h4 {
-    color: #20A33E;
-}
-
-.info-card,
-.value-card {
-    border-top: 4px solid #20A33E;
-    transition: transform 0.3s ease;
-}
-
-.info-card:hover,
-.value-card:hover {
-    transform: translateY(-5px);
-}
-
-.icon-circle {
-    width: 80px;
-    height: 80px;
-    margin: auto;
-    border-radius: 50%;
-    background-color: #20A33E;
-    color: white;
-    font-size: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-</style>

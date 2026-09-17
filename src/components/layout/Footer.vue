@@ -42,13 +42,3 @@
         </div>
     </footer>
 </template>
-
-<style scoped>
-.footer {
-    background-color: #20A33E;
-}
-
-.footer a {
-    color: white;
-}
-</style>
