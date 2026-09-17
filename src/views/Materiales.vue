@@ -122,7 +122,7 @@
               <div class="card-body text-center">
                 <h4>Plástico</h4>
                 <p>
-                  Botellas, envases y otros productos plásticos reciclables.
+                  Plástico lineal, de baja densidad y de alta densidad para reciclaje.
                 </p>
               </div>
             </div>
